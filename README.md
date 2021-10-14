@@ -1,6 +1,6 @@
-# starter_new
+# Xtore
 
-A new Flutter project.
+Shopping project for universities
 
 ## Getting Started
 
