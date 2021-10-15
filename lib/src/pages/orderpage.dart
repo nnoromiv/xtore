@@ -33,9 +33,6 @@ class _OrderPageState extends State<OrderPage> {
               OrderCard(),
               OrderCard(),
               OrderCard(),
-              OrderCard(),
-              OrderCard(),
-              OrderCard(),
               _buildTotalContainer()
             ],
           ),

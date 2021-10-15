@@ -1,6 +1,7 @@
-// ignore_for_file: file_names, use_key_in_widget_constructors
+// ignore_for_file: file_names, use_key_in_widget_constructors, prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'screens/mainscreen.dart';
+import 'package:x_tore/src/screens/welcomescreen.dart';
+// import 'screens/mainscreen.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -9,8 +10,11 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Xtore",
-      theme: ThemeData(primaryColor: Colors.lightGreen[400]),
-      home: MainScreen(),
+      theme: ThemeData(
+          primaryColor: Colors.lightGreen[400],
+          scaffoldBackgroundColor: Colors.white),
+      home: WelcomeScreen(),
+      // home: MainScreen(),
     );
   }
 }
