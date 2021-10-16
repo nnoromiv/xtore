@@ -10,7 +10,7 @@ import '../widgets/search_bar.dart';
 //Boughtitems
 import '../widgets/bought_items.dart';
 //Items
-import '../data/items.dart';
+import '../data/homepage_items.dart';
 import '../models/items_model.dart';
 //sizer
 // import 'package:sizer/sizer.dart';

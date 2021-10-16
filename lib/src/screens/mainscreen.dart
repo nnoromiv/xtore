@@ -3,11 +3,11 @@
 import 'package:flutter/material.dart';
 
 //pages
-import '../pages/homepage.dart';
-import '../pages/productpage.dart';
-import '../pages/orderpage.dart';
-import '../pages/accountpage.dart';
-import '../pages/helppage.dart';
+import '../bottomnavigationpages/homepage.dart';
+import '../bottomnavigationpages/accountpage.dart';
+import '../bottomnavigationpages/orderpage.dart';
+import '../bottomnavigationpages/productpage.dart';
+import '../bottomnavigationpages/helppage.dart';
 
 class MainScreen extends StatefulWidget {
   @override

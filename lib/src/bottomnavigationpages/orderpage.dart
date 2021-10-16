@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:x_tore/src/pages/signinpage.dart';
+import 'package:x_tore/signin/signinpage.dart';
+
 import '../widgets/logo.dart';
 
 // Widgets
