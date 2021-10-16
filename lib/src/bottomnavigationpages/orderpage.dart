@@ -25,7 +25,6 @@ class _OrderPageState extends State<OrderPage> {
           SizedBox(
             height: 30.0,
           ),
-          Logo(),
           SizedBox(
             height: 30.0,
           ),

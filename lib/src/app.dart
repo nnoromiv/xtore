@@ -1,5 +1,7 @@
 // ignore_for_file: file_names, use_key_in_widget_constructors, prefer_const_constructors
 import 'package:flutter/material.dart';
+// import 'package:x_tore/signup/signuppage.dart';
+// import 'package:x_tore/signin/signinpage.dart';
 // import 'package:x_tore/welcome/welcomescreen.dart';
 
 // import 'bottomnavigationpages/signinpage.dart';
@@ -15,6 +17,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
           primaryColor: Colors.lightGreen[400],
           scaffoldBackgroundColor: Colors.white),
+      // home: SignUpPage(),
       // home: SignInPage(),
       // home: WelcomeScreen(),
       home: MainScreen(),

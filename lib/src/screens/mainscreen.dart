@@ -37,7 +37,7 @@ class _MainScreenState extends State<MainScreen> {
     helpPage = HelpPage();
 
     pages = [homePage, productPage, orderPage, accountPage, helpPage];
-    currentPage = orderPage;
+    currentPage = HomePage();
   }
 
   @override

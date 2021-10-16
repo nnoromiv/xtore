@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_unnecessary_containers, prefer_const_constructors, prefer_const_literals_to_create_immutables, use_key_in_widget_constructors, sized_box_for_whitespace, unused_local_variable
 
 import 'package:flutter/material.dart';
-import 'package:x_tore/signin/body_sigin.dart';
+import 'package:x_tore/signin/body_signin.dart';
 
 class SignInPage extends StatefulWidget {
   @override
