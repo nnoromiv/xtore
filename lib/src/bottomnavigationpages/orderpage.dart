@@ -3,8 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:x_tore/signin/signinpage.dart';
-
-import '../widgets/logo.dart';
+import 'package:x_tore/src/screens/mainscreen.dart';
 
 // Widgets
 import '../widgets/order_card.dart';
@@ -22,9 +21,6 @@ class _OrderPageState extends State<OrderPage> {
         padding: EdgeInsets.all(2.0),
         scrollDirection: Axis.vertical,
         children: <Widget>[
-          SizedBox(
-            height: 30.0,
-          ),
           SizedBox(
             height: 30.0,
           ),
@@ -148,11 +144,17 @@ class _OrderPageState extends State<OrderPage> {
                 borderRadius: BorderRadius.circular(30.0),
               ),
               child: Center(
-                child: Text(
-                  "Continue shopping",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(
+                        builder: (BuildContext context) => MainScreen()));
+                  },
+                  child: Text(
+                    "Continue shopping",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),

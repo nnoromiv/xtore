@@ -7,7 +7,6 @@ import 'package:x_tore/signin/background_sigin.dart';
 import 'package:x_tore/signup/orDivider.dart';
 import 'package:x_tore/signup/signuppage.dart';
 import 'package:x_tore/signup/social_icon.dart';
-import 'package:x_tore/src/bottomnavigationpages/homepage.dart';
 import 'package:x_tore/src/screens/mainscreen.dart';
 import 'package:x_tore/welcome/body.dart';
 import 'package:x_tore/signin/roundinputfield.dart';

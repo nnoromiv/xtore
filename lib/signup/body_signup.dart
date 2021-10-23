@@ -8,7 +8,6 @@ import 'package:x_tore/signin/textformfield.dart';
 import 'package:x_tore/signup/background_signup.dart';
 import 'package:x_tore/signup/orDivider.dart';
 import 'package:x_tore/signup/social_icon.dart';
-import 'package:x_tore/src/bottomnavigationpages/homepage.dart';
 import 'package:x_tore/welcome/body.dart';
 
 class Body extends StatefulWidget {

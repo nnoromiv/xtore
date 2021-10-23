@@ -1,6 +1,7 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:x_tore/src/bottomnavigationpages/orderpage.dart';
 //sizer
 // import 'package:sizer/sizer.dart';
 
@@ -30,10 +31,16 @@ class HomeTop extends StatelessWidget {
               )
             ],
           ),
-          const Icon(
-            Icons.shopping_cart_rounded,
-            size: 20.0,
-            color: Colors.lightGreen,
+          GestureDetector(
+            onTap: () {
+              Navigator.of(context).pushReplacement(MaterialPageRoute(
+                  builder: (BuildContext context) => OrderPage()));
+            },
+            child: const Icon(
+              Icons.shopping_cart_rounded,
+              size: 20.0,
+              color: Colors.lightGreen,
+            ),
           ),
         ],
       ),
